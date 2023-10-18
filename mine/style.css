@@ -1,0 +1,21 @@
+body{
+    background: black;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+#logo
+{
+    position: relative;
+    width: 300px;
+    aspect-ratio: 1000 / 556;
+    user-select: none;
+}
+
+#logo>img{
+    width: 70%;
+    position: absolute;
+}
