@@ -1,0 +1,30 @@
+body {
+    background: rgb(2, 6, 23);
+    overflow: hidden;
+}
+
+#wand {
+    aspect-ratio: 1 / 10;
+    height: 50vh;
+    width: 3vw;
+    background: linear-gradient(to right,
+            rgb(26, 24, 28) 10%,
+            rgb(42, 40, 44) 45% 55%,
+            rgb(26, 24, 28) 90%);
+    border-radius: 1vmin;
+    overflow: hidden;
+    box-shadow: 0vmin 1vmin 4vmin rgb(0 0 0 /80%);
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    translate: -50%;
+    z-index: 100;
+}
+
+#wand #cap {
+    height: 20%;
+    background: linear-gradient(to right,
+            rgb(212, 221, 236) 10%,
+            rgb(255, 255, 255) 45% 55%,
+            rgb(212, 221, 236) 90%);
+}
